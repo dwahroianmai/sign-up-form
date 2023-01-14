@@ -121,6 +121,7 @@ form {
   flex-wrap: wrap;
   width: 800px;
   justify-content: center;
+  margin-left: 60px;
 }
 
 label[for="password"] {
@@ -184,7 +185,7 @@ input:focus:invalid {
 
 button[type="submit"] {
   appearance: none;
-  width: 750px;
+  width: 730px;
   height: 60px;
   background-color: #7CD2D7;
   border-radius: 9px;
