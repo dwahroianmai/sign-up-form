@@ -219,9 +219,22 @@ a:hover, a:visited {
   color: #B1D9DB;
 }
 
+a.credit {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  left: 140px;
+}
+
+a.credit:hover {
+  text-decoration: underline;
+}
+
 .credit {
   position: absolute;
-  top: 94vh;
+  bottom: 0;
   color: white;
   font-family: 'Poppins', sans-serif;
 }
@@ -244,6 +257,28 @@ a:hover, a:visited {
   .form {
     position: absolute;
     width: 100vw;
+  }
+  a.credit {
+    position: absolute;
+    bottom: 0;
+    color: #7CD2D7;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    left: 140px;
+  }
+  
+  a.credit:hover {
+    text-decoration: underline;
+  }
+  
+  .credit {
+    position: absolute;
+    bottom: 0;
+    color: #7CD2D7;
+    font-family: 'Poppins', sans-serif;
+  }
+  .form {
+    border-radius: 0;
   }
 }
 
