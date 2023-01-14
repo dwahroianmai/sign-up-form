@@ -25,12 +25,13 @@
           <label for="first-name"><input type="text" name="first-name" id="first-name" placeholder="First name*" required pattern="[a-zA-Z'-]+"></label>
           <label for="last-name"><input type="text" name="last-name" id="last-name" placeholder="Last name*" required pattern="[a-zA-Z'-]+"></label>
           <label for="email"><input type="email" name="email" id="email" placeholder="E-mail Address*" required></label>
-          <label for="phone"><input type="tel" name="phone" id="phone" placeholder="Phone number"></label>
-          <label for="password"><input type="password" name="password" id="password" placeholder="Password" required class="error"></label>
-          <label for="conf-password"><input type="password" name="conf-password" id="conf-password" placeholder="Confirm password" required></label>
+          <label for="phone"><input type="tel" name="phone" id="phone" placeholder="Phone number" minlength="10"></label>
+          <label for="password"><input type="password" name="password" id="password" placeholder="Password*" required><span class="strength"></span></label>
+          <label for="conf-password"><input type="password" name="conf-password" id="conf-password" placeholder="Confirm password*" required></label>
+          <p class="error"></p>
           <button type="submit">Create account</button>
         </form>
-        <p>Already have an account? <a href="">Log in</a></p>
+        <p>Already have an account? <a href="https://youtu.be/dQw4w9WgXcQ">Log in</a></p>
       </div>
     </div>
     <p class="credit">Designed by<a href=""></a></p>
